@@ -10,6 +10,7 @@ A finalidade do projeto é:
 
 -Criar scheduler dos processos no Airflow
 
+Fluxograma do 
 ![image](https://user-images.githubusercontent.com/101958426/195097681-54d6115e-b7ed-49e9-a04a-411611427c5f.png)
 
 
