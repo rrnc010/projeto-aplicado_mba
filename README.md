@@ -2,7 +2,7 @@
 
 A finalidade do projeto é:
 
--Captura os dados de indice de reclamação em https://dados.gov.br/dataset.
+-Captura os dados de indice de reclamação da ANS em https://dados.gov.br/dataset.
 
 -Tratar os dados e subir no Cloud Storage(bucket) da GCP.
 
