@@ -82,6 +82,7 @@ def cria_tabela_camada_gold():
      print('falha em rodar querie!')
      logging.info('Tabela tbl_indice_ans teve falha no reprocessamento!')
 
+
 def rotina_atualizacao_fechamento():
  status='nok'
  try:
@@ -95,7 +96,8 @@ def rotina_atualizacao_fechamento():
      print('falha em rodar querie!')
      logging.info('Tabela tbl_indice_ans teve falha no reprocessamento!')
 
-#upload_arquivos_bucket()
-#cria_camada_silver()
+upload_arquivos_bucket()
+cria_camada_silver()
+cria_tabela_camada_silver()
 #cria_camada_gold()
-#rotina_atualizacao_fechamento
+rotina_atualizacao_fechamento()
